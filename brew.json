@@ -1,1 +1,2411 @@
-{"packages": [{"name": "adns", "dependencies": []}, {"name": "adwaita-icon-theme", "dependencies": ["cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "graphite2", "harfbuzz", "icu4c", "jpeg", "libcroco", "libffi", "libpng", "librsvg", "libtiff", "lzo", "openssl@1.1", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "afl-fuzz", "dependencies": []}, {"name": "aom", "dependencies": []}, {"name": "aria2", "dependencies": ["libssh2", "openssl@1.1"]}, {"name": "atk", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "atkmm", "dependencies": ["atk", "gdbm", "gettext", "glib", "glibmm", "libffi", "libsigc++@2", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "autoconf", "dependencies": []}, {"name": "automake", "dependencies": ["autoconf"]}, {"name": "bdw-gc", "dependencies": []}, {"name": "binwalk", "dependencies": ["gcc", "gdbm", "gmp", "isl", "libmpc", "mpfr", "openssl@1.1", "p7zip", "python", "readline", "sqlite", "ssdeep", "xz"]}, {"name": "blueutil", "dependencies": []}, {"name": "boost", "dependencies": ["icu4c"]}, {"name": "boost-build", "dependencies": []}, {"name": "boxes", "dependencies": []}, {"name": "brew-cask-completion", "dependencies": []}, {"name": "bvi", "dependencies": []}, {"name": "cabextract", "dependencies": []}, {"name": "cairo", "dependencies": ["fontconfig", "freetype", "gdbm", "gettext", "glib", "libffi", "libpng", "lzo", "openssl", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "cairomm", "dependencies": ["cairo", "fontconfig", "freetype", "gdbm", "gettext", "glib", "libffi", "libpng", "libsigc++@2", "lzo", "openssl@1.1", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "ceres-solver", "dependencies": ["cmake", "eigen", "gcc", "gflags", "glog", "gmp", "isl", "libmpc", "metis", "mpfr", "openblas", "suite-sparse"]}, {"name": "chrome-cli", "dependencies": []}, {"name": "clisp", "dependencies": ["libsigsegv", "readline"]}, {"name": "clojure", "dependencies": ["readline", "rlwrap"]}, {"name": "cmake", "dependencies": []}, {"name": "coreutils", "dependencies": []}, {"name": "cowsay", "dependencies": []}, {"name": "curl", "dependencies": []}, {"name": "dcraw", "dependencies": ["jasper", "jpeg", "libtiff", "little-cms2"]}, {"name": "diffuse", "dependencies": ["atk", "cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "gtk+", "harfbuzz", "hicolor-icon-theme", "jpeg", "libffi", "libpng", "libtiff", "openssl", "pango", "pcre", "pixman", "py2cairo", "pygobject", "pygtk", "python@2", "readline", "sqlite"]}, {"name": "eigen", "dependencies": []}, {"name": "exiftool", "dependencies": []}, {"name": "expect", "dependencies": []}, {"name": "fdupes", "dependencies": []}, {"name": "ffmpeg", "dependencies": ["aom", "cairo", "flac", "fontconfig", "freetype", "frei0r", "fribidi", "gdbm", "gettext", "giflib", "glib", "gmp", "gnutls", "graphite2", "harfbuzz", "icu4c", "jpeg", "lame", "leptonica", "libass", "libbluray", "libevent", "libffi", "libidn2", "libogg", "libpng", "libsamplerate", "libsndfile", "libsoxr", "libtasn1", "libtiff", "libunistring", "libvidstab", "libvorbis", "libvpx", "little-cms2", "lzo", "nettle", "opencore-amr", "openjpeg", "openssl@1.1", "opus", "p11-kit", "pcre", "pixman", "python", "readline", "rtmpdump", "rubberband", "sdl2", "snappy", "speex", "sqlite", "tesseract", "theora", "unbound", "webp", "x264", "x265", "xvid", "xz"]}, {"name": "findutils", "dependencies": []}, {"name": "fish", "dependencies": ["pcre2"]}, {"name": "flac", "dependencies": ["libogg"]}, {"name": "fontconfig", "dependencies": ["freetype", "libpng"]}, {"name": "fontforge", "dependencies": ["cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gettext", "giflib", "glib", "graphite2", "harfbuzz", "icu4c", "jpeg", "libffi", "libpng", "libspiro", "libtiff", "libtool", "libuninameslist", "lzo", "openssl", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "foremost", "dependencies": []}, {"name": "fortune", "dependencies": []}, {"name": "freetype", "dependencies": ["libpng"]}, {"name": "frei0r", "dependencies": []}, {"name": "fribidi", "dependencies": []}, {"name": "gcc", "dependencies": ["gmp", "isl", "libmpc", "mpfr"]}, {"name": "gd", "dependencies": ["fontconfig", "freetype", "jpeg", "libpng", "libtiff", "webp"]}, {"name": "gdb", "dependencies": []}, {"name": "gdbm", "dependencies": []}, {"name": "gdk-pixbuf", "dependencies": ["gdbm", "gettext", "glib", "jpeg", "libffi", "libpng", "libtiff", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "gettext", "dependencies": []}, {"name": "gflags", "dependencies": []}, {"name": "ghostscript", "dependencies": ["jpeg", "libtiff"]}, {"name": "giflib", "dependencies": []}, {"name": "gifsicle", "dependencies": []}, {"name": "gifski", "dependencies": []}, {"name": "git", "dependencies": ["gettext", "pcre2"]}, {"name": "git-lfs", "dependencies": []}, {"name": "glib", "dependencies": ["gdbm", "gettext", "libffi", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "glib-networking", "dependencies": ["gdbm", "gettext", "glib", "gmp", "gnutls", "gsettings-desktop-schemas", "libevent", "libffi", "libidn2", "libtasn1", "libunistring", "nettle", "openssl@1.1", "p11-kit", "pcre", "python", "readline", "sqlite", "unbound", "xz"]}, {"name": "glibmm", "dependencies": ["gdbm", "gettext", "glib", "libffi", "libsigc++@2", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "glog", "dependencies": ["gflags"]}, {"name": "gmp", "dependencies": []}, {"name": "gnu-tar", "dependencies": []}, {"name": "gnumeric", "dependencies": ["adwaita-icon-theme", "atk", "cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "goffice", "graphite2", "gsettings-desktop-schemas", "gtk+3", "harfbuzz", "hicolor-icon-theme", "icu4c", "itstool", "jpeg", "libcroco", "libepoxy", "libffi", "libgsf", "libpng", "librsvg", "libtiff", "libxml2", "lzo", "openssl@1.1", "pango", "pcre", "pixman", "python", "rarian", "readline", "sqlite", "xz"]}, {"name": "gnupg", "dependencies": ["adns", "gettext", "gmp", "gnutls", "libassuan", "libevent", "libffi", "libgcrypt", "libgpg-error", "libidn2", "libksba", "libtasn1", "libunistring", "libusb", "nettle", "npth", "openssl", "p11-kit", "pinentry", "unbound"]}, {"name": "gnutls", "dependencies": ["gettext", "gmp", "libevent", "libffi", "libidn2", "libtasn1", "libunistring", "nettle", "openssl@1.1", "p11-kit", "unbound"]}, {"name": "go", "dependencies": []}, {"name": "goffice", "dependencies": ["atk", "cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "graphite2", "gsettings-desktop-schemas", "gtk+3", "harfbuzz", "hicolor-icon-theme", "icu4c", "jpeg", "libcroco", "libepoxy", "libffi", "libgsf", "libpng", "librsvg", "libtiff", "lzo", "openssl@1.1", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "gpac", "dependencies": ["openssl@1.1"]}, {"name": "graphite2", "dependencies": []}, {"name": "graphviz", "dependencies": ["fontconfig", "freetype", "gd", "gdbm", "gettext", "glib", "gts", "jasper", "jpeg", "libffi", "libpng", "libtiff", "libtool", "netpbm", "openssl@1.1", "pcre", "python", "readline", "sqlite", "webp", "xz"]}, {"name": "gsettings-desktop-schemas", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "gsl", "dependencies": []}, {"name": "gtk+", "dependencies": ["atk", "cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "graphite2", "harfbuzz", "hicolor-icon-theme", "icu4c", "jpeg", "libffi", "libpng", "libtiff", "lzo", "openssl", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "gtk+3", "dependencies": ["atk", "cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "graphite2", "gsettings-desktop-schemas", "harfbuzz", "hicolor-icon-theme", "icu4c", "jpeg", "libepoxy", "libffi", "libpng", "libtiff", "lzo", "openssl@1.1", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "gtkmm", "dependencies": ["atk", "atkmm", "cairo", "cairomm", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "glibmm", "graphite2", "gtk+", "harfbuzz", "hicolor-icon-theme", "icu4c", "jpeg", "libffi", "libpng", "libsigc++@2", "libtiff", "lzo", "openssl@1.1", "pango", "pangomm", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "gts", "dependencies": ["gdbm", "gettext", "glib", "jasper", "jpeg", "libffi", "libpng", "libtiff", "netpbm", "openssl", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "harfbuzz", "dependencies": ["cairo", "fontconfig", "freetype", "gdbm", "gettext", "glib", "graphite2", "icu4c", "libffi", "libpng", "lzo", "openssl@1.1", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "hdf5", "dependencies": ["gcc", "gmp", "isl", "libmpc", "mpfr", "szip"]}, {"name": "hexedit", "dependencies": []}, {"name": "hicolor-icon-theme", "dependencies": []}, {"name": "highlight", "dependencies": ["lua"]}, {"name": "ical-buddy", "dependencies": []}, {"name": "icu4c", "dependencies": []}, {"name": "ilmbase", "dependencies": []}, {"name": "imagemagick", "dependencies": ["freetype", "gdbm", "gettext", "glib", "ilmbase", "jpeg", "libde265", "libffi", "libheif", "libomp", "libpng", "libtiff", "libtool", "little-cms2", "openexr", "openjpeg", "openssl@1.1", "pcre", "python", "readline", "shared-mime-info", "sqlite", "webp", "x265", "xz"]}, {"name": "intltool", "dependencies": []}, {"name": "ipython", "dependencies": ["gdbm", "openssl", "python", "readline", "sqlite", "xz", "zeromq"]}, {"name": "irssi", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "isl", "dependencies": ["gmp"]}, {"name": "itstool", "dependencies": ["gdbm", "libxml2", "openssl", "python", "readline", "sqlite", "xz"]}, {"name": "jadx", "dependencies": []}, {"name": "jasper", "dependencies": ["jpeg"]}, {"name": "jpeg", "dependencies": []}, {"name": "lame", "dependencies": []}, {"name": "leiningen", "dependencies": []}, {"name": "leptonica", "dependencies": ["giflib", "jpeg", "libpng", "libtiff", "little-cms2", "openjpeg", "webp"]}, {"name": "libarchive", "dependencies": ["xz"]}, {"name": "libass", "dependencies": ["freetype", "fribidi", "gettext", "glib", "harfbuzz", "libffi", "libpng", "pcre"]}, {"name": "libassuan", "dependencies": ["libgpg-error"]}, {"name": "libbluray", "dependencies": ["fontconfig", "freetype", "libpng"]}, {"name": "libcroco", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "libde265", "dependencies": []}, {"name": "libebml", "dependencies": []}, {"name": "libepoxy", "dependencies": []}, {"name": "libevent", "dependencies": ["openssl@1.1"]}, {"name": "libffi", "dependencies": []}, {"name": "libgcrypt", "dependencies": ["libgpg-error"]}, {"name": "libgpg-error", "dependencies": []}, {"name": "libgsf", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "libheif", "dependencies": ["gdbm", "gettext", "glib", "jpeg", "libde265", "libffi", "libpng", "openssl@1.1", "pcre", "python", "readline", "shared-mime-info", "sqlite", "x265", "xz"]}, {"name": "libidn2", "dependencies": ["gettext", "libunistring"]}, {"name": "libksba", "dependencies": ["libgpg-error"]}, {"name": "libmagic", "dependencies": []}, {"name": "libmatroska", "dependencies": ["libebml"]}, {"name": "libmpc", "dependencies": ["gmp", "mpfr"]}, {"name": "libmpdclient", "dependencies": []}, {"name": "libogg", "dependencies": []}, {"name": "libomp", "dependencies": []}, {"name": "libpng", "dependencies": []}, {"name": "libpsl", "dependencies": ["gettext", "libidn2", "libunistring"]}, {"name": "librsvg", "dependencies": ["cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "graphite2", "harfbuzz", "icu4c", "jpeg", "libcroco", "libffi", "libpng", "libtiff", "lzo", "openssl@1.1", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "libsamplerate", "dependencies": ["flac", "libogg", "libsndfile", "libvorbis"]}, {"name": "libsigc++", "dependencies": []}, {"name": "libsigc++@2", "dependencies": []}, {"name": "libsigsegv", "dependencies": []}, {"name": "libsndfile", "dependencies": ["flac", "libogg", "libvorbis"]}, {"name": "libsoup", "dependencies": ["fontconfig", "freetype", "gd", "gdbm", "gettext", "glib", "glib-networking", "gmp", "gnutls", "graphviz", "gsettings-desktop-schemas", "gts", "jasper", "jpeg", "libevent", "libffi", "libidn2", "libpng", "libpsl", "libtasn1", "libtiff", "libtool", "libunistring", "netpbm", "nettle", "openssl@1.1", "p11-kit", "pcre", "pkg-config", "python", "readline", "sqlite", "unbound", "vala", "webp", "xz"]}, {"name": "libsoxr", "dependencies": []}, {"name": "libspiro", "dependencies": []}, {"name": "libssh2", "dependencies": ["openssl@1.1"]}, {"name": "libtasn1", "dependencies": []}, {"name": "libtiff", "dependencies": ["jpeg"]}, {"name": "libtool", "dependencies": []}, {"name": "libuninameslist", "dependencies": []}, {"name": "libunistring", "dependencies": []}, {"name": "libusb", "dependencies": []}, {"name": "libvidstab", "dependencies": []}, {"name": "libvorbis", "dependencies": ["libogg"]}, {"name": "libvpx", "dependencies": []}, {"name": "libxml2", "dependencies": ["gdbm", "openssl", "python", "readline", "sqlite", "xz"]}, {"name": "libyaml", "dependencies": []}, {"name": "libzip", "dependencies": []}, {"name": "little-cms", "dependencies": ["jpeg", "libtiff"]}, {"name": "little-cms2", "dependencies": ["jpeg", "libtiff"]}, {"name": "lolcat", "dependencies": []}, {"name": "lua", "dependencies": []}, {"name": "lua@5.1", "dependencies": []}, {"name": "lzo", "dependencies": []}, {"name": "mad", "dependencies": []}, {"name": "mas", "dependencies": []}, {"name": "media-info", "dependencies": []}, {"name": "metis", "dependencies": []}, {"name": "mkvtoolnix", "dependencies": ["boost", "flac", "gettext", "icu4c", "libebml", "libmagic", "libmatroska", "libogg", "libvorbis"]}, {"name": "mpc", "dependencies": ["libmpdclient"]}, {"name": "mpfr", "dependencies": ["gmp"]}, {"name": "mps-youtube", "dependencies": ["aom", "cairo", "ffmpeg", "flac", "fontconfig", "freetype", "frei0r", "fribidi", "gdbm", "gettext", "giflib", "glib", "gmp", "gnutls", "graphite2", "harfbuzz", "icu4c", "jpeg", "lame", "leptonica", "libarchive", "libass", "libbluray", "libevent", "libffi", "libogg", "libpng", "libsamplerate", "libsndfile", "libsoxr", "libtasn1", "libtiff", "libunistring", "libvorbis", "libvpx", "little-cms2", "lua@5.1", "mpv", "mujs", "nettle", "opencore-amr", "openjpeg", "openssl", "opus", "p11-kit", "pcre", "pixman", "python", "readline", "rtmpdump", "rubberband", "sdl2", "snappy", "speex", "sqlite", "tesseract", "theora", "uchardet", "unbound", "vapoursynth", "webp", "x264", "x265", "xvid", "xz", "youtube-dl", "zimg"]}, {"name": "mujs", "dependencies": []}, {"name": "ncurses", "dependencies": []}, {"name": "netpbm", "dependencies": ["jasper", "jpeg", "libpng", "libtiff"]}, {"name": "nettle", "dependencies": ["gmp"]}, {"name": "node", "dependencies": ["icu4c"]}, {"name": "npth", "dependencies": []}, {"name": "nspr", "dependencies": []}, {"name": "nss", "dependencies": ["nspr"]}, {"name": "numpy", "dependencies": ["gcc", "gdbm", "gmp", "isl", "libmpc", "mpfr", "openblas", "openssl@1.1", "python", "readline", "sqlite", "xz"]}, {"name": "openblas", "dependencies": ["gcc", "gmp", "isl", "libmpc", "mpfr"]}, {"name": "opencore-amr", "dependencies": []}, {"name": "opencv", "dependencies": ["aom", "cairo", "ceres-solver", "cmake", "eigen", "ffmpeg", "flac", "fontconfig", "freetype", "frei0r", "fribidi", "gcc", "gdbm", "gettext", "gflags", "giflib", "glib", "glog", "gmp", "gnutls", "graphite2", "harfbuzz", "icu4c", "ilmbase", "isl", "jpeg", "lame", "leptonica", "libass", "libbluray", "libevent", "libffi", "libidn2", "libmpc", "libogg", "libpng", "libsamplerate", "libsndfile", "libsoxr", "libtasn1", "libtiff", "libunistring", "libvidstab", "libvorbis", "libvpx", "little-cms2", "lzo", "metis", "mpfr", "nettle", "numpy", "openblas", "opencore-amr", "openexr", "openjpeg", "openssl@1.1", "opus", "p11-kit", "pcre", "pixman", "python", "readline", "rtmpdump", "rubberband", "sdl2", "snappy", "speex", "sqlite", "suite-sparse", "tbb", "tesseract", "theora", "unbound", "webp", "x264", "x265", "xvid", "xz"]}, {"name": "openexr", "dependencies": ["ilmbase"]}, {"name": "openjpeg", "dependencies": ["jpeg", "libpng", "libtiff", "little-cms2"]}, {"name": "openssl", "dependencies": []}, {"name": "openssl@1.1", "dependencies": []}, {"name": "opus", "dependencies": []}, {"name": "opusfile", "dependencies": ["libogg", "openssl@1.1", "opus"]}, {"name": "p11-kit", "dependencies": ["libffi"]}, {"name": "p7zip", "dependencies": []}, {"name": "pandoc", "dependencies": []}, {"name": "pandoc-citeproc", "dependencies": ["pandoc"]}, {"name": "pango", "dependencies": ["cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gettext", "glib", "graphite2", "harfbuzz", "icu4c", "libffi", "libpng", "lzo", "openssl@1.1", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "pangomm", "dependencies": ["cairo", "cairomm", "fontconfig", "freetype", "fribidi", "gdbm", "gettext", "glib", "glibmm", "graphite2", "harfbuzz", "icu4c", "libffi", "libpng", "libsigc++@2", "lzo", "openssl@1.1", "pango", "pcre", "pixman", "python", "readline", "sqlite", "xz"]}, {"name": "pcre", "dependencies": []}, {"name": "pcre2", "dependencies": []}, {"name": "pdfcrack", "dependencies": []}, {"name": "perl", "dependencies": []}, {"name": "pigz", "dependencies": []}, {"name": "pinentry", "dependencies": ["libassuan", "libgpg-error"]}, {"name": "pixman", "dependencies": []}, {"name": "pkg-config", "dependencies": []}, {"name": "poppler", "dependencies": ["cairo", "fontconfig", "freetype", "gdbm", "gettext", "glib", "jpeg", "libffi", "libpng", "libtiff", "little-cms2", "lzo", "nspr", "nss", "openjpeg", "openssl@1.1", "pcre", "pixman", "python", "qt", "readline", "sqlite", "xz"]}, {"name": "popt", "dependencies": []}, {"name": "potrace", "dependencies": []}, {"name": "pv", "dependencies": []}, {"name": "py2cairo", "dependencies": ["cairo", "fontconfig", "freetype", "gdbm", "gettext", "glib", "libffi", "libpng", "lzo", "openssl@1.1", "pcre", "pixman", "python", "python@2", "readline", "sqlite", "xz"]}, {"name": "pyenv", "dependencies": ["autoconf", "openssl@1.1", "pkg-config", "readline"]}, {"name": "pygobject", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl", "pcre", "python", "python@2", "readline", "sqlite", "xz"]}, {"name": "pygtk", "dependencies": ["atk", "cairo", "fontconfig", "freetype", "fribidi", "gdbm", "gdk-pixbuf", "gettext", "glib", "graphite2", "gtk+", "harfbuzz", "hicolor-icon-theme", "icu4c", "jpeg", "libffi", "libpng", "libtiff", "lzo", "openssl", "pango", "pcre", "pixman", "py2cairo", "pygobject", "python", "python@2", "readline", "sqlite", "xz"]}, {"name": "python", "dependencies": ["gdbm", "openssl@1.1", "readline", "sqlite", "xz"]}, {"name": "python@2", "dependencies": ["gdbm", "openssl@1.1", "readline", "sqlite"]}, {"name": "qt", "dependencies": []}, {"name": "rarian", "dependencies": []}, {"name": "readline", "dependencies": []}, {"name": "rename", "dependencies": []}, {"name": "rlwrap", "dependencies": ["readline"]}, {"name": "rtmpdump", "dependencies": ["openssl@1.1"]}, {"name": "rtv", "dependencies": ["gdbm", "openssl", "python", "readline", "sqlite", "xz"]}, {"name": "rubberband", "dependencies": ["flac", "libogg", "libsamplerate", "libsndfile", "libvorbis"]}, {"name": "ruby", "dependencies": ["libyaml", "openssl@1.1", "readline"]}, {"name": "screen", "dependencies": []}, {"name": "screenfetch", "dependencies": []}, {"name": "sdl2", "dependencies": []}, {"name": "shared-mime-info", "dependencies": ["gdbm", "gettext", "glib", "libffi", "openssl@1.1", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "snappy", "dependencies": []}, {"name": "sox", "dependencies": ["flac", "lame", "libogg", "libpng", "libsndfile", "libvorbis", "mad", "openssl", "opus", "opusfile"]}, {"name": "speedtest-cli", "dependencies": []}, {"name": "speex", "dependencies": ["libogg"]}, {"name": "sphinx-doc", "dependencies": ["gdbm", "openssl@1.1", "python", "readline", "sqlite", "xz"]}, {"name": "sqlite", "dependencies": ["readline"]}, {"name": "ssdeep", "dependencies": []}, {"name": "suite-sparse", "dependencies": ["gcc", "gmp", "isl", "libmpc", "metis", "mpfr", "openblas"]}, {"name": "szip", "dependencies": []}, {"name": "tbb", "dependencies": ["gdbm", "openssl@1.1", "python", "readline", "sqlite", "xz"]}, {"name": "terminal-notifier", "dependencies": []}, {"name": "tesseract", "dependencies": ["giflib", "jpeg", "leptonica", "libpng", "libtiff", "little-cms2", "openjpeg", "webp"]}, {"name": "thefuck", "dependencies": ["gdbm", "openssl", "python", "readline", "sqlite", "xz"]}, {"name": "theora", "dependencies": ["libogg", "libvorbis"]}, {"name": "tldr", "dependencies": ["libzip"]}, {"name": "tmux", "dependencies": ["libevent", "ncurses", "openssl"]}, {"name": "trash", "dependencies": []}, {"name": "tree", "dependencies": []}, {"name": "uchardet", "dependencies": []}, {"name": "ufraw", "dependencies": ["dcraw", "gdbm", "gettext", "glib", "jasper", "jpeg", "libffi", "libpng", "libtiff", "little-cms2", "openssl", "pcre", "python", "readline", "sqlite", "xz"]}, {"name": "unar", "dependencies": []}, {"name": "unbound", "dependencies": ["libevent", "openssl@1.1"]}, {"name": "unrar", "dependencies": []}, {"name": "unzip", "dependencies": []}, {"name": "vala", "dependencies": ["fontconfig", "freetype", "gd", "gdbm", "gettext", "glib", "graphviz", "gts", "jasper", "jpeg", "libffi", "libpng", "libtiff", "libtool", "netpbm", "openssl@1.1", "pcre", "pkg-config", "python", "readline", "sqlite", "webp", "xz"]}, {"name": "vapoursynth", "dependencies": ["gdbm", "openssl", "python", "readline", "sqlite", "xz", "zimg"]}, {"name": "vim", "dependencies": ["gdbm", "gettext", "libyaml", "lua", "openssl@1.1", "perl", "python", "readline", "ruby", "sqlite", "xz"]}, {"name": "webp", "dependencies": ["jpeg", "libpng", "libtiff"]}, {"name": "wget", "dependencies": ["gettext", "libidn2", "libunistring", "openssl"]}, {"name": "x264", "dependencies": []}, {"name": "x265", "dependencies": []}, {"name": "xvid", "dependencies": []}, {"name": "xz", "dependencies": []}, {"name": "yadm", "dependencies": []}, {"name": "youtube-dl", "dependencies": []}, {"name": "zbar", "dependencies": ["dcraw", "freetype", "gdbm", "gettext", "glib", "ilmbase", "imagemagick", "jasper", "jpeg", "libde265", "libffi", "libheif", "libomp", "libpng", "libtiff", "libtool", "little-cms2", "openexr", "openjpeg", "openssl@1.1", "pcre", "python", "readline", "shared-mime-info", "sqlite", "ufraw", "webp", "x265", "xz"]}, {"name": "zeromq", "dependencies": []}, {"name": "zimg", "dependencies": []}, {"name": "zlib", "dependencies": []}, {"name": "zsh", "dependencies": ["ncurses", "pcre"]}, {"name": "zsh-syntax-highlighting", "dependencies": []}]}
+{
+  "packages": [
+    {
+      "dependencies": [],
+      "name": "adns"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "jpeg",
+        "libcroco",
+        "libffi",
+        "libpng",
+        "librsvg",
+        "libtiff",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "adwaita-icon-theme"
+    },
+    {
+      "dependencies": [],
+      "name": "afl-fuzz"
+    },
+    {
+      "dependencies": [],
+      "name": "aom"
+    },
+    {
+      "dependencies": [
+        "libssh2",
+        "openssl@1.1"
+      ],
+      "name": "aria2"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "atk"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "gdbm",
+        "gettext",
+        "glib",
+        "glibmm",
+        "libffi",
+        "libsigc++@2",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "atkmm"
+    },
+    {
+      "dependencies": [],
+      "name": "autoconf"
+    },
+    {
+      "dependencies": [
+        "autoconf"
+      ],
+      "name": "automake"
+    },
+    {
+      "dependencies": [],
+      "name": "bdw-gc"
+    },
+    {
+      "dependencies": [
+        "gcc",
+        "gdbm",
+        "gmp",
+        "isl",
+        "libmpc",
+        "mpfr",
+        "openssl@1.1",
+        "p7zip",
+        "python",
+        "readline",
+        "sqlite",
+        "ssdeep",
+        "xz"
+      ],
+      "name": "binwalk"
+    },
+    {
+      "dependencies": [],
+      "name": "blueutil"
+    },
+    {
+      "dependencies": [
+        "icu4c"
+      ],
+      "name": "boost"
+    },
+    {
+      "dependencies": [],
+      "name": "boost-build"
+    },
+    {
+      "dependencies": [],
+      "name": "boxes"
+    },
+    {
+      "dependencies": [],
+      "name": "brew-cask-completion"
+    },
+    {
+      "dependencies": [],
+      "name": "bvi"
+    },
+    {
+      "dependencies": [],
+      "name": "cabextract"
+    },
+    {
+      "dependencies": [
+        "fontconfig",
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "libpng",
+        "lzo",
+        "openssl",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "cairo"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "libpng",
+        "libsigc++@2",
+        "lzo",
+        "openssl@1.1",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "cairomm"
+    },
+    {
+      "dependencies": [
+        "cmake",
+        "eigen",
+        "gcc",
+        "gflags",
+        "glog",
+        "gmp",
+        "isl",
+        "libmpc",
+        "metis",
+        "mpfr",
+        "openblas",
+        "suite-sparse"
+      ],
+      "name": "ceres-solver"
+    },
+    {
+      "dependencies": [],
+      "name": "chrome-cli"
+    },
+    {
+      "dependencies": [
+        "libsigsegv",
+        "readline"
+      ],
+      "name": "clisp"
+    },
+    {
+      "dependencies": [
+        "readline",
+        "rlwrap"
+      ],
+      "name": "clojure"
+    },
+    {
+      "dependencies": [],
+      "name": "cmake"
+    },
+    {
+      "dependencies": [],
+      "name": "coreutils"
+    },
+    {
+      "dependencies": [],
+      "name": "cowsay"
+    },
+    {
+      "dependencies": [],
+      "name": "curl"
+    },
+    {
+      "dependencies": [
+        "jasper",
+        "jpeg",
+        "libtiff",
+        "little-cms2"
+      ],
+      "name": "dcraw"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "gtk+",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "openssl",
+        "pango",
+        "pcre",
+        "pixman",
+        "py2cairo",
+        "pygobject",
+        "pygtk",
+        "python@2",
+        "readline",
+        "sqlite"
+      ],
+      "name": "diffuse"
+    },
+    {
+      "dependencies": [],
+      "name": "eigen"
+    },
+    {
+      "dependencies": [],
+      "name": "exiftool"
+    },
+    {
+      "dependencies": [],
+      "name": "expect"
+    },
+    {
+      "dependencies": [],
+      "name": "fdupes"
+    },
+    {
+      "dependencies": [
+        "aom",
+        "cairo",
+        "flac",
+        "fontconfig",
+        "freetype",
+        "frei0r",
+        "fribidi",
+        "gdbm",
+        "gettext",
+        "giflib",
+        "glib",
+        "gmp",
+        "gnutls",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "jpeg",
+        "lame",
+        "leptonica",
+        "libass",
+        "libbluray",
+        "libevent",
+        "libffi",
+        "libidn2",
+        "libogg",
+        "libpng",
+        "libsamplerate",
+        "libsndfile",
+        "libsoxr",
+        "libtasn1",
+        "libtiff",
+        "libunistring",
+        "libvidstab",
+        "libvorbis",
+        "libvpx",
+        "little-cms2",
+        "lzo",
+        "nettle",
+        "opencore-amr",
+        "openjpeg",
+        "openssl@1.1",
+        "opus",
+        "p11-kit",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "rtmpdump",
+        "rubberband",
+        "sdl2",
+        "snappy",
+        "speex",
+        "sqlite",
+        "tesseract",
+        "theora",
+        "unbound",
+        "webp",
+        "x264",
+        "x265",
+        "xvid",
+        "xz"
+      ],
+      "name": "ffmpeg"
+    },
+    {
+      "dependencies": [],
+      "name": "findutils"
+    },
+    {
+      "dependencies": [
+        "pcre2"
+      ],
+      "name": "fish"
+    },
+    {
+      "dependencies": [
+        "libogg"
+      ],
+      "name": "flac"
+    },
+    {
+      "dependencies": [
+        "freetype",
+        "libpng"
+      ],
+      "name": "fontconfig"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gettext",
+        "giflib",
+        "glib",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libspiro",
+        "libtiff",
+        "libtool",
+        "libuninameslist",
+        "lzo",
+        "openssl",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "fontforge"
+    },
+    {
+      "dependencies": [],
+      "name": "foremost"
+    },
+    {
+      "dependencies": [],
+      "name": "fortune"
+    },
+    {
+      "dependencies": [
+        "libpng"
+      ],
+      "name": "freetype"
+    },
+    {
+      "dependencies": [],
+      "name": "frei0r"
+    },
+    {
+      "dependencies": [],
+      "name": "fribidi"
+    },
+    {
+      "dependencies": [
+        "gmp",
+        "isl",
+        "libmpc",
+        "mpfr"
+      ],
+      "name": "gcc"
+    },
+    {
+      "dependencies": [
+        "fontconfig",
+        "freetype",
+        "jpeg",
+        "libpng",
+        "libtiff",
+        "webp"
+      ],
+      "name": "gd"
+    },
+    {
+      "dependencies": [],
+      "name": "gdb"
+    },
+    {
+      "dependencies": [],
+      "name": "gdbm"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gdk-pixbuf"
+    },
+    {
+      "dependencies": [],
+      "name": "gettext"
+    },
+    {
+      "dependencies": [],
+      "name": "gflags"
+    },
+    {
+      "dependencies": [
+        "jpeg",
+        "libtiff"
+      ],
+      "name": "ghostscript"
+    },
+    {
+      "dependencies": [],
+      "name": "giflib"
+    },
+    {
+      "dependencies": [],
+      "name": "gifsicle"
+    },
+    {
+      "dependencies": [],
+      "name": "gifski"
+    },
+    {
+      "dependencies": [
+        "gettext",
+        "pcre2"
+      ],
+      "name": "git"
+    },
+    {
+      "dependencies": [],
+      "name": "git-lfs"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "libffi",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "glib"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "gmp",
+        "gnutls",
+        "gsettings-desktop-schemas",
+        "libevent",
+        "libffi",
+        "libidn2",
+        "libtasn1",
+        "libunistring",
+        "nettle",
+        "openssl@1.1",
+        "p11-kit",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "unbound",
+        "xz"
+      ],
+      "name": "glib-networking"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "libsigc++@2",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "glibmm"
+    },
+    {
+      "dependencies": [
+        "gflags"
+      ],
+      "name": "glog"
+    },
+    {
+      "dependencies": [],
+      "name": "gmp"
+    },
+    {
+      "dependencies": [],
+      "name": "gnu-tar"
+    },
+    {
+      "dependencies": [
+        "adwaita-icon-theme",
+        "atk",
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "goffice",
+        "graphite2",
+        "gsettings-desktop-schemas",
+        "gtk+3",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "icu4c",
+        "itstool",
+        "jpeg",
+        "libcroco",
+        "libepoxy",
+        "libffi",
+        "libgsf",
+        "libpng",
+        "librsvg",
+        "libtiff",
+        "libxml2",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "rarian",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gnumeric"
+    },
+    {
+      "dependencies": [
+        "adns",
+        "gettext",
+        "gmp",
+        "gnutls",
+        "libassuan",
+        "libevent",
+        "libffi",
+        "libgcrypt",
+        "libgpg-error",
+        "libidn2",
+        "libksba",
+        "libtasn1",
+        "libunistring",
+        "libusb",
+        "nettle",
+        "npth",
+        "openssl",
+        "p11-kit",
+        "pinentry",
+        "unbound"
+      ],
+      "name": "gnupg"
+    },
+    {
+      "dependencies": [
+        "gettext",
+        "gmp",
+        "libevent",
+        "libffi",
+        "libidn2",
+        "libtasn1",
+        "libunistring",
+        "nettle",
+        "openssl@1.1",
+        "p11-kit",
+        "unbound"
+      ],
+      "name": "gnutls"
+    },
+    {
+      "dependencies": [],
+      "name": "go"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "graphite2",
+        "gsettings-desktop-schemas",
+        "gtk+3",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "icu4c",
+        "jpeg",
+        "libcroco",
+        "libepoxy",
+        "libffi",
+        "libgsf",
+        "libpng",
+        "librsvg",
+        "libtiff",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "goffice"
+    },
+    {
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "name": "gpac"
+    },
+    {
+      "dependencies": [],
+      "name": "graphite2"
+    },
+    {
+      "dependencies": [
+        "fontconfig",
+        "freetype",
+        "gd",
+        "gdbm",
+        "gettext",
+        "glib",
+        "gts",
+        "jasper",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "libtool",
+        "netpbm",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "webp",
+        "xz"
+      ],
+      "name": "graphviz"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gsettings-desktop-schemas"
+    },
+    {
+      "dependencies": [],
+      "name": "gsl"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "graphite2",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "icu4c",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "lzo",
+        "openssl",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gtk+"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "graphite2",
+        "gsettings-desktop-schemas",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "icu4c",
+        "jpeg",
+        "libepoxy",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gtk+3"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "atkmm",
+        "cairo",
+        "cairomm",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "glibmm",
+        "graphite2",
+        "gtk+",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "icu4c",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libsigc++@2",
+        "libtiff",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pangomm",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gtkmm"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "jasper",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "netpbm",
+        "openssl",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "gts"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "graphite2",
+        "icu4c",
+        "libffi",
+        "libpng",
+        "lzo",
+        "openssl@1.1",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "harfbuzz"
+    },
+    {
+      "dependencies": [
+        "gcc",
+        "gmp",
+        "isl",
+        "libmpc",
+        "mpfr",
+        "szip"
+      ],
+      "name": "hdf5"
+    },
+    {
+      "dependencies": [],
+      "name": "hexedit"
+    },
+    {
+      "dependencies": [],
+      "name": "hicolor-icon-theme"
+    },
+    {
+      "dependencies": [
+        "lua"
+      ],
+      "name": "highlight"
+    },
+    {
+      "dependencies": [],
+      "name": "ical-buddy"
+    },
+    {
+      "dependencies": [],
+      "name": "icu4c"
+    },
+    {
+      "dependencies": [],
+      "name": "ilmbase"
+    },
+    {
+      "dependencies": [
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "ilmbase",
+        "jpeg",
+        "libde265",
+        "libffi",
+        "libheif",
+        "libomp",
+        "libpng",
+        "libtiff",
+        "libtool",
+        "little-cms2",
+        "openexr",
+        "openjpeg",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "shared-mime-info",
+        "sqlite",
+        "webp",
+        "x265",
+        "xz"
+      ],
+      "name": "imagemagick"
+    },
+    {
+      "dependencies": [],
+      "name": "intltool"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl",
+        "python",
+        "readline",
+        "sqlite",
+        "xz",
+        "zeromq"
+      ],
+      "name": "ipython"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "irssi"
+    },
+    {
+      "dependencies": [
+        "gmp"
+      ],
+      "name": "isl"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "libxml2",
+        "openssl",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "itstool"
+    },
+    {
+      "dependencies": [],
+      "name": "jadx"
+    },
+    {
+      "dependencies": [
+        "jpeg"
+      ],
+      "name": "jasper"
+    },
+    {
+      "dependencies": [],
+      "name": "jpeg"
+    },
+    {
+      "dependencies": [],
+      "name": "lame"
+    },
+    {
+      "dependencies": [],
+      "name": "leiningen"
+    },
+    {
+      "dependencies": [
+        "giflib",
+        "jpeg",
+        "libpng",
+        "libtiff",
+        "little-cms2",
+        "openjpeg",
+        "webp"
+      ],
+      "name": "leptonica"
+    },
+    {
+      "dependencies": [
+        "xz"
+      ],
+      "name": "libarchive"
+    },
+    {
+      "dependencies": [
+        "freetype",
+        "fribidi",
+        "gettext",
+        "glib",
+        "harfbuzz",
+        "libffi",
+        "libpng",
+        "pcre"
+      ],
+      "name": "libass"
+    },
+    {
+      "dependencies": [
+        "libgpg-error"
+      ],
+      "name": "libassuan"
+    },
+    {
+      "dependencies": [
+        "fontconfig",
+        "freetype",
+        "libpng"
+      ],
+      "name": "libbluray"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "libcroco"
+    },
+    {
+      "dependencies": [],
+      "name": "libde265"
+    },
+    {
+      "dependencies": [],
+      "name": "libebml"
+    },
+    {
+      "dependencies": [],
+      "name": "libepoxy"
+    },
+    {
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "name": "libevent"
+    },
+    {
+      "dependencies": [],
+      "name": "libffi"
+    },
+    {
+      "dependencies": [
+        "libgpg-error"
+      ],
+      "name": "libgcrypt"
+    },
+    {
+      "dependencies": [],
+      "name": "libgpg-error"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "libgsf"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "jpeg",
+        "libde265",
+        "libffi",
+        "libpng",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "shared-mime-info",
+        "sqlite",
+        "x265",
+        "xz"
+      ],
+      "name": "libheif"
+    },
+    {
+      "dependencies": [
+        "gettext",
+        "libunistring"
+      ],
+      "name": "libidn2"
+    },
+    {
+      "dependencies": [
+        "libgpg-error"
+      ],
+      "name": "libksba"
+    },
+    {
+      "dependencies": [],
+      "name": "libmagic"
+    },
+    {
+      "dependencies": [
+        "libebml"
+      ],
+      "name": "libmatroska"
+    },
+    {
+      "dependencies": [
+        "gmp",
+        "mpfr"
+      ],
+      "name": "libmpc"
+    },
+    {
+      "dependencies": [],
+      "name": "libmpdclient"
+    },
+    {
+      "dependencies": [],
+      "name": "libogg"
+    },
+    {
+      "dependencies": [],
+      "name": "libomp"
+    },
+    {
+      "dependencies": [],
+      "name": "libpng"
+    },
+    {
+      "dependencies": [
+        "gettext",
+        "libidn2",
+        "libunistring"
+      ],
+      "name": "libpsl"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "jpeg",
+        "libcroco",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "librsvg"
+    },
+    {
+      "dependencies": [
+        "flac",
+        "libogg",
+        "libsndfile",
+        "libvorbis"
+      ],
+      "name": "libsamplerate"
+    },
+    {
+      "dependencies": [],
+      "name": "libsigc++"
+    },
+    {
+      "dependencies": [],
+      "name": "libsigc++@2"
+    },
+    {
+      "dependencies": [],
+      "name": "libsigsegv"
+    },
+    {
+      "dependencies": [
+        "flac",
+        "libogg",
+        "libvorbis"
+      ],
+      "name": "libsndfile"
+    },
+    {
+      "dependencies": [
+        "fontconfig",
+        "freetype",
+        "gd",
+        "gdbm",
+        "gettext",
+        "glib",
+        "glib-networking",
+        "gmp",
+        "gnutls",
+        "graphviz",
+        "gsettings-desktop-schemas",
+        "gts",
+        "jasper",
+        "jpeg",
+        "libevent",
+        "libffi",
+        "libidn2",
+        "libpng",
+        "libpsl",
+        "libtasn1",
+        "libtiff",
+        "libtool",
+        "libunistring",
+        "netpbm",
+        "nettle",
+        "openssl@1.1",
+        "p11-kit",
+        "pcre",
+        "pkg-config",
+        "python",
+        "readline",
+        "sqlite",
+        "unbound",
+        "vala",
+        "webp",
+        "xz"
+      ],
+      "name": "libsoup"
+    },
+    {
+      "dependencies": [],
+      "name": "libsoxr"
+    },
+    {
+      "dependencies": [],
+      "name": "libspiro"
+    },
+    {
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "name": "libssh2"
+    },
+    {
+      "dependencies": [],
+      "name": "libtasn1"
+    },
+    {
+      "dependencies": [
+        "jpeg"
+      ],
+      "name": "libtiff"
+    },
+    {
+      "dependencies": [],
+      "name": "libtool"
+    },
+    {
+      "dependencies": [],
+      "name": "libuninameslist"
+    },
+    {
+      "dependencies": [],
+      "name": "libunistring"
+    },
+    {
+      "dependencies": [],
+      "name": "libusb"
+    },
+    {
+      "dependencies": [],
+      "name": "libvidstab"
+    },
+    {
+      "dependencies": [
+        "libogg"
+      ],
+      "name": "libvorbis"
+    },
+    {
+      "dependencies": [],
+      "name": "libvpx"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "libxml2"
+    },
+    {
+      "dependencies": [],
+      "name": "libyaml"
+    },
+    {
+      "dependencies": [],
+      "name": "libzip"
+    },
+    {
+      "dependencies": [
+        "jpeg",
+        "libtiff"
+      ],
+      "name": "little-cms"
+    },
+    {
+      "dependencies": [
+        "jpeg",
+        "libtiff"
+      ],
+      "name": "little-cms2"
+    },
+    {
+      "dependencies": [],
+      "name": "lolcat"
+    },
+    {
+      "dependencies": [],
+      "name": "lua"
+    },
+    {
+      "dependencies": [],
+      "name": "lua@5.1"
+    },
+    {
+      "dependencies": [],
+      "name": "lzo"
+    },
+    {
+      "dependencies": [],
+      "name": "mad"
+    },
+    {
+      "dependencies": [],
+      "name": "mas"
+    },
+    {
+      "dependencies": [],
+      "name": "media-info"
+    },
+    {
+      "dependencies": [],
+      "name": "metis"
+    },
+    {
+      "dependencies": [
+        "boost",
+        "flac",
+        "gettext",
+        "icu4c",
+        "libebml",
+        "libmagic",
+        "libmatroska",
+        "libogg",
+        "libvorbis"
+      ],
+      "name": "mkvtoolnix"
+    },
+    {
+      "dependencies": [
+        "libmpdclient"
+      ],
+      "name": "mpc"
+    },
+    {
+      "dependencies": [
+        "gmp"
+      ],
+      "name": "mpfr"
+    },
+    {
+      "dependencies": [
+        "aom",
+        "cairo",
+        "ffmpeg",
+        "flac",
+        "fontconfig",
+        "freetype",
+        "frei0r",
+        "fribidi",
+        "gdbm",
+        "gettext",
+        "giflib",
+        "glib",
+        "gmp",
+        "gnutls",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "jpeg",
+        "lame",
+        "leptonica",
+        "libarchive",
+        "libass",
+        "libbluray",
+        "libevent",
+        "libffi",
+        "libogg",
+        "libpng",
+        "libsamplerate",
+        "libsndfile",
+        "libsoxr",
+        "libtasn1",
+        "libtiff",
+        "libunistring",
+        "libvorbis",
+        "libvpx",
+        "little-cms2",
+        "lua@5.1",
+        "mpv",
+        "mujs",
+        "nettle",
+        "opencore-amr",
+        "openjpeg",
+        "openssl",
+        "opus",
+        "p11-kit",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "rtmpdump",
+        "rubberband",
+        "sdl2",
+        "snappy",
+        "speex",
+        "sqlite",
+        "tesseract",
+        "theora",
+        "uchardet",
+        "unbound",
+        "vapoursynth",
+        "webp",
+        "x264",
+        "x265",
+        "xvid",
+        "xz",
+        "youtube-dl",
+        "zimg"
+      ],
+      "name": "mps-youtube"
+    },
+    {
+      "dependencies": [],
+      "name": "mujs"
+    },
+    {
+      "dependencies": [],
+      "name": "ncurses"
+    },
+    {
+      "dependencies": [
+        "jasper",
+        "jpeg",
+        "libpng",
+        "libtiff"
+      ],
+      "name": "netpbm"
+    },
+    {
+      "dependencies": [
+        "gmp"
+      ],
+      "name": "nettle"
+    },
+    {
+      "dependencies": [
+        "icu4c"
+      ],
+      "name": "node"
+    },
+    {
+      "dependencies": [],
+      "name": "npth"
+    },
+    {
+      "dependencies": [],
+      "name": "nspr"
+    },
+    {
+      "dependencies": [
+        "nspr"
+      ],
+      "name": "nss"
+    },
+    {
+      "dependencies": [
+        "gcc",
+        "gdbm",
+        "gmp",
+        "isl",
+        "libmpc",
+        "mpfr",
+        "openblas",
+        "openssl@1.1",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "numpy"
+    },
+    {
+      "dependencies": [
+        "gcc",
+        "gmp",
+        "isl",
+        "libmpc",
+        "mpfr"
+      ],
+      "name": "openblas"
+    },
+    {
+      "dependencies": [],
+      "name": "opencore-amr"
+    },
+    {
+      "dependencies": [
+        "aom",
+        "cairo",
+        "ceres-solver",
+        "cmake",
+        "eigen",
+        "ffmpeg",
+        "flac",
+        "fontconfig",
+        "freetype",
+        "frei0r",
+        "fribidi",
+        "gcc",
+        "gdbm",
+        "gettext",
+        "gflags",
+        "giflib",
+        "glib",
+        "glog",
+        "gmp",
+        "gnutls",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "ilmbase",
+        "isl",
+        "jpeg",
+        "lame",
+        "leptonica",
+        "libass",
+        "libbluray",
+        "libevent",
+        "libffi",
+        "libidn2",
+        "libmpc",
+        "libogg",
+        "libpng",
+        "libsamplerate",
+        "libsndfile",
+        "libsoxr",
+        "libtasn1",
+        "libtiff",
+        "libunistring",
+        "libvidstab",
+        "libvorbis",
+        "libvpx",
+        "little-cms2",
+        "lzo",
+        "metis",
+        "mpfr",
+        "nettle",
+        "numpy",
+        "openblas",
+        "opencore-amr",
+        "openexr",
+        "openjpeg",
+        "openssl@1.1",
+        "opus",
+        "p11-kit",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "rtmpdump",
+        "rubberband",
+        "sdl2",
+        "snappy",
+        "speex",
+        "sqlite",
+        "suite-sparse",
+        "tbb",
+        "tesseract",
+        "theora",
+        "unbound",
+        "webp",
+        "x264",
+        "x265",
+        "xvid",
+        "xz"
+      ],
+      "name": "opencv"
+    },
+    {
+      "dependencies": [
+        "ilmbase"
+      ],
+      "name": "openexr"
+    },
+    {
+      "dependencies": [
+        "jpeg",
+        "libpng",
+        "libtiff",
+        "little-cms2"
+      ],
+      "name": "openjpeg"
+    },
+    {
+      "dependencies": [],
+      "name": "openssl"
+    },
+    {
+      "dependencies": [],
+      "name": "openssl@1.1"
+    },
+    {
+      "dependencies": [],
+      "name": "opus"
+    },
+    {
+      "dependencies": [
+        "libogg",
+        "openssl@1.1",
+        "opus"
+      ],
+      "name": "opusfile"
+    },
+    {
+      "dependencies": [
+        "libffi"
+      ],
+      "name": "p11-kit"
+    },
+    {
+      "dependencies": [],
+      "name": "p7zip"
+    },
+    {
+      "dependencies": [],
+      "name": "pandoc"
+    },
+    {
+      "dependencies": [
+        "pandoc"
+      ],
+      "name": "pandoc-citeproc"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gettext",
+        "glib",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "libffi",
+        "libpng",
+        "lzo",
+        "openssl@1.1",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "pango"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "cairomm",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gettext",
+        "glib",
+        "glibmm",
+        "graphite2",
+        "harfbuzz",
+        "icu4c",
+        "libffi",
+        "libpng",
+        "libsigc++@2",
+        "lzo",
+        "openssl@1.1",
+        "pango",
+        "pcre",
+        "pixman",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "pangomm"
+    },
+    {
+      "dependencies": [],
+      "name": "pcre"
+    },
+    {
+      "dependencies": [],
+      "name": "pcre2"
+    },
+    {
+      "dependencies": [],
+      "name": "pdfcrack"
+    },
+    {
+      "dependencies": [],
+      "name": "perl"
+    },
+    {
+      "dependencies": [],
+      "name": "pigz"
+    },
+    {
+      "dependencies": [
+        "libassuan",
+        "libgpg-error"
+      ],
+      "name": "pinentry"
+    },
+    {
+      "dependencies": [],
+      "name": "pixman"
+    },
+    {
+      "dependencies": [],
+      "name": "pkg-config"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "little-cms2",
+        "lzo",
+        "nspr",
+        "nss",
+        "openjpeg",
+        "openssl@1.1",
+        "pcre",
+        "pixman",
+        "python",
+        "qt",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "poppler"
+    },
+    {
+      "dependencies": [],
+      "name": "popt"
+    },
+    {
+      "dependencies": [],
+      "name": "potrace"
+    },
+    {
+      "dependencies": [],
+      "name": "pv"
+    },
+    {
+      "dependencies": [
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "libpng",
+        "lzo",
+        "openssl@1.1",
+        "pcre",
+        "pixman",
+        "python",
+        "python@2",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "py2cairo"
+    },
+    {
+      "dependencies": [
+        "autoconf",
+        "openssl@1.1",
+        "pkg-config",
+        "readline"
+      ],
+      "name": "pyenv"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl",
+        "pcre",
+        "python",
+        "python@2",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "pygobject"
+    },
+    {
+      "dependencies": [
+        "atk",
+        "cairo",
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "gdbm",
+        "gdk-pixbuf",
+        "gettext",
+        "glib",
+        "graphite2",
+        "gtk+",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "icu4c",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "lzo",
+        "openssl",
+        "pango",
+        "pcre",
+        "pixman",
+        "py2cairo",
+        "pygobject",
+        "python",
+        "python@2",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "pygtk"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "python"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl@1.1",
+        "readline",
+        "sqlite"
+      ],
+      "name": "python@2"
+    },
+    {
+      "dependencies": [],
+      "name": "qt"
+    },
+    {
+      "dependencies": [],
+      "name": "rarian"
+    },
+    {
+      "dependencies": [],
+      "name": "readline"
+    },
+    {
+      "dependencies": [],
+      "name": "rename"
+    },
+    {
+      "dependencies": [
+        "readline"
+      ],
+      "name": "rlwrap"
+    },
+    {
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "name": "rtmpdump"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "rtv"
+    },
+    {
+      "dependencies": [
+        "flac",
+        "libogg",
+        "libsamplerate",
+        "libsndfile",
+        "libvorbis"
+      ],
+      "name": "rubberband"
+    },
+    {
+      "dependencies": [
+        "libyaml",
+        "openssl@1.1",
+        "readline"
+      ],
+      "name": "ruby"
+    },
+    {
+      "dependencies": [],
+      "name": "screen"
+    },
+    {
+      "dependencies": [],
+      "name": "screenfetch"
+    },
+    {
+      "dependencies": [],
+      "name": "sdl2"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "glib",
+        "libffi",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "shared-mime-info"
+    },
+    {
+      "dependencies": [],
+      "name": "snappy"
+    },
+    {
+      "dependencies": [
+        "flac",
+        "lame",
+        "libogg",
+        "libpng",
+        "libsndfile",
+        "libvorbis",
+        "mad",
+        "openssl",
+        "opus",
+        "opusfile"
+      ],
+      "name": "sox"
+    },
+    {
+      "dependencies": [],
+      "name": "speedtest-cli"
+    },
+    {
+      "dependencies": [
+        "libogg"
+      ],
+      "name": "speex"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl@1.1",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "sphinx-doc"
+    },
+    {
+      "dependencies": [
+        "readline"
+      ],
+      "name": "sqlite"
+    },
+    {
+      "dependencies": [],
+      "name": "ssdeep"
+    },
+    {
+      "dependencies": [
+        "gcc",
+        "gmp",
+        "isl",
+        "libmpc",
+        "metis",
+        "mpfr",
+        "openblas"
+      ],
+      "name": "suite-sparse"
+    },
+    {
+      "dependencies": [],
+      "name": "szip"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl@1.1",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "tbb"
+    },
+    {
+      "dependencies": [],
+      "name": "terminal-notifier"
+    },
+    {
+      "dependencies": [
+        "giflib",
+        "jpeg",
+        "leptonica",
+        "libpng",
+        "libtiff",
+        "little-cms2",
+        "openjpeg",
+        "webp"
+      ],
+      "name": "tesseract"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "thefuck"
+    },
+    {
+      "dependencies": [
+        "libogg",
+        "libvorbis"
+      ],
+      "name": "theora"
+    },
+    {
+      "dependencies": [
+        "libzip"
+      ],
+      "name": "tldr"
+    },
+    {
+      "dependencies": [
+        "libevent",
+        "ncurses",
+        "openssl"
+      ],
+      "name": "tmux"
+    },
+    {
+      "dependencies": [],
+      "name": "trash"
+    },
+    {
+      "dependencies": [],
+      "name": "tree"
+    },
+    {
+      "dependencies": [],
+      "name": "uchardet"
+    },
+    {
+      "dependencies": [
+        "dcraw",
+        "gdbm",
+        "gettext",
+        "glib",
+        "jasper",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "little-cms2",
+        "openssl",
+        "pcre",
+        "python",
+        "readline",
+        "sqlite",
+        "xz"
+      ],
+      "name": "ufraw"
+    },
+    {
+      "dependencies": [],
+      "name": "unar"
+    },
+    {
+      "dependencies": [
+        "libevent",
+        "openssl@1.1"
+      ],
+      "name": "unbound"
+    },
+    {
+      "dependencies": [],
+      "name": "unrar"
+    },
+    {
+      "dependencies": [],
+      "name": "unzip"
+    },
+    {
+      "dependencies": [
+        "fontconfig",
+        "freetype",
+        "gd",
+        "gdbm",
+        "gettext",
+        "glib",
+        "graphviz",
+        "gts",
+        "jasper",
+        "jpeg",
+        "libffi",
+        "libpng",
+        "libtiff",
+        "libtool",
+        "netpbm",
+        "openssl@1.1",
+        "pcre",
+        "pkg-config",
+        "python",
+        "readline",
+        "sqlite",
+        "webp",
+        "xz"
+      ],
+      "name": "vala"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "openssl",
+        "python",
+        "readline",
+        "sqlite",
+        "xz",
+        "zimg"
+      ],
+      "name": "vapoursynth"
+    },
+    {
+      "dependencies": [
+        "gdbm",
+        "gettext",
+        "libyaml",
+        "lua",
+        "openssl@1.1",
+        "perl",
+        "python",
+        "readline",
+        "ruby",
+        "sqlite",
+        "xz"
+      ],
+      "name": "vim"
+    },
+    {
+      "dependencies": [
+        "jpeg",
+        "libpng",
+        "libtiff"
+      ],
+      "name": "webp"
+    },
+    {
+      "dependencies": [
+        "gettext",
+        "libidn2",
+        "libunistring",
+        "openssl"
+      ],
+      "name": "wget"
+    },
+    {
+      "dependencies": [],
+      "name": "x264"
+    },
+    {
+      "dependencies": [],
+      "name": "x265"
+    },
+    {
+      "dependencies": [],
+      "name": "xvid"
+    },
+    {
+      "dependencies": [],
+      "name": "xz"
+    },
+    {
+      "dependencies": [],
+      "name": "yadm"
+    },
+    {
+      "dependencies": [],
+      "name": "youtube-dl"
+    },
+    {
+      "dependencies": [
+        "dcraw",
+        "freetype",
+        "gdbm",
+        "gettext",
+        "glib",
+        "ilmbase",
+        "imagemagick",
+        "jasper",
+        "jpeg",
+        "libde265",
+        "libffi",
+        "libheif",
+        "libomp",
+        "libpng",
+        "libtiff",
+        "libtool",
+        "little-cms2",
+        "openexr",
+        "openjpeg",
+        "openssl@1.1",
+        "pcre",
+        "python",
+        "readline",
+        "shared-mime-info",
+        "sqlite",
+        "ufraw",
+        "webp",
+        "x265",
+        "xz"
+      ],
+      "name": "zbar"
+    },
+    {
+      "dependencies": [],
+      "name": "zeromq"
+    },
+    {
+      "dependencies": [],
+      "name": "zimg"
+    },
+    {
+      "dependencies": [],
+      "name": "zlib"
+    },
+    {
+      "dependencies": [
+        "ncurses",
+        "pcre"
+      ],
+      "name": "zsh"
+    },
+    {
+      "dependencies": [],
+      "name": "zsh-syntax-highlighting"
+    }
+  ]
+}
